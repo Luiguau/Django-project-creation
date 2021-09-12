@@ -8,7 +8,7 @@ Script creado en python para automatizar la creación de proyectos y apps* en dj
 ## Caracteristicas
 
 - Crea el proyecto.
-- Proteje la security key en un archivo externo llamado sk que se ubica en la raiz del proyecto.
+- Protege la security key en un archivo externo llamado sk que se ubica en la raiz del proyecto.
 - Crea las apps indicadas junto a su carpeta templates y archivo urls.
 - Agrega las apps creadas en el archivo settings.
 - Se puede utilizar en Windows, Linux y Mac
