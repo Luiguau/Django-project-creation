@@ -37,8 +37,10 @@ A continuación se muestra el resultado del script creando el projecto "_zoo_" j
 ```sh
 python django_project_creation.py zoo animales personal visitantes
 ```
-- **Árbol de directorios**
+- **Estructura del proyecto resultante**
+
 ![](img/dir_tree.png)
 
 - **Archivo setting resultante**
+
 ![](img/settings.png)
