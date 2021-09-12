@@ -11,8 +11,11 @@ if platform.system()== "Windows":
 	py="py"
 else:
 	py="python3"
-project_path=os.path.join(os.getcwd(), sys.argv[1])
 arguments = len(sys.argv) - 1
+
+if arguments >= 1 :
+	project_path=os.path.join(os.getcwd(), sys.argv[1])
+
 
 def create_project(name_project):
 	cProject= subprocess.run(["django-admin", "startproject", name_project])
