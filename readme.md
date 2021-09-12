@@ -1,7 +1,7 @@
 # Django project script
-#### _Script para automatizar la creación de projectos en Django_
+#### _Script para automatizar la creación de proyectos en Django_
 
-Script creado en python para automatizar la creación de projectos y apps* en django, junto con proteger la security key y generar el archivo gitignore.
+Script creado en python para automatizar la creación de proyectos y apps* en django, junto con proteger la security key y generar el archivo gitignore.
 *_la creación de apps es opcional y no hay limite de cuantas app se pueden ingresar como argumento_
 
 
@@ -19,21 +19,21 @@ El script requiere [python](https://www.python.org/) v3.5 o superior para correr
 
 #### Ejemplos de uso
 
-- Crear solo el projecto.
+- Crear solo el proyecto.
    ```sh
-    python django_project_creation.py nombre_projecto
+    python django_project_creation.py nombre_proyecto
     ```
-- Creación de projecto y una app
+- Creación de proyecto y una app
     ```sh
-    python django_project_creation.py nombre_projecto nombre_app
+    python django_project_creation.py nombre_proyecto nombre_app
     ```
-- Creación de projecto y varias apps
+- Creación de proyecto y varias apps
     ```sh
-    python django_project_creation.py nombre_projecto nombre_app nombre_app nombre_app
+    python django_project_creation.py nombre_proyecto nombre_app nombre_app nombre_app
     ```
 
 ## Vista Previa
-A continuación se muestra el resultado del script creando el projecto "_zoo_" junto a las apps "_animales_", "_personal_" y "_visitantes_".
+A continuación se muestra el resultado del script creando el proyecto "_zoo_" junto a las apps "_animales_", "_personal_" y "_visitantes_".
 ```sh
 python django_project_creation.py zoo animales personal visitantes
 ```
